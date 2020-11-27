@@ -6,12 +6,12 @@
 
 
 <script>
-  export default {
-    name: 'NumberInput',
-    data() {
-    	return {
-    		number: 10
-    	}
-    }
-  }
+export default {
+  name: "NumberInput",
+  data() {
+    return {
+      number: 10,
+    };
+  },
+};
 </script>

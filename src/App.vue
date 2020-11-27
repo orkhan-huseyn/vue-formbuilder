@@ -1,8 +1,9 @@
 <template>
   <div class="demo-wrapper">
     <div class="demo-header">
-      <h1>Form Builder
-          <small>Made with Vue.JS</small>
+      <h1>
+        Form Builder
+        <small>Made with Vue.JS</small>
       </h1>
     </div>
     <div class="app-wrapper">
@@ -24,18 +25,18 @@
 </template>
 
 <script>
-  const default_layout = "default";
+const default_layout = "default";
 
-  export default {
-    name: 'App',
-    computed: {
-      layout(){
-        return (this.$route.meta.layout || default_layout) + '-layout';
-      }
-    }
-  }
+export default {
+  name: "App",
+  computed: {
+    layout() {
+      return (this.$route.meta.layout || default_layout) + "-layout";
+    },
+  },
+};
 </script>
 
 <style lang="scss">
-@import './src/assets/scss/main.scss';
+@import "./src/assets/scss/main.scss";
 </style>
